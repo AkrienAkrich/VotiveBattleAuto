@@ -6,8 +6,8 @@ WinForms-приложение для автоматизации РП-боя по
 
 Справочники лежат в папке проекта:
 
-- `VotiveBattleAuto/Data/races.json` — расы, формы, вампиры, оборотни.
-- `VotiveBattleAuto/Data/roles.json` — роли: охотник, воин, магические ранги.
+- `VotiveBattleAuto/Data/races.json` — расы, формы.
+- `VotiveBattleAuto/Data/roles.json` — роли.
 - `VotiveBattleAuto/Data/abilities.json` — способности магии, охотников, оборотней и вампиров.
 
 Приложение сделано так, чтобы точные способности можно было быстро перенести в JSON без переписывания C#.
