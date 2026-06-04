@@ -1,0 +1,171 @@
+[
+  {
+    "Id": "none",
+    "Name": "Без роли",
+    "Stats": {
+      "Attack": 0,
+      "Defense": 0,
+      "Escape": 0,
+      "MagicAttack": 0,
+      "MagicDefense": 0,
+      "MagicEscape": 0,
+      "Initiative": 0
+    },
+    "Tags": [],
+    "SourceNote": "Нет роли."
+  },
+  {
+    "Id": "hunter",
+    "Name": "Охотник",
+    "Stats": {
+      "Attack": 0,
+      "Defense": 0,
+      "Escape": 0,
+      "MagicAttack": 0,
+      "MagicDefense": 0,
+      "MagicEscape": 0,
+      "Initiative": 0
+    },
+    "Tags": [
+      "Hunter"
+    ],
+    "SourceNote": "Тег роли для выдачи охотничьих способностей; числовые бонусы заполняются по топику при необходимости."
+  },
+  {
+    "Id": "warrior_self",
+    "Name": "Воин: самоучка",
+    "Stats": {
+      "Attack": 1,
+      "Defense": 0,
+      "Escape": 0,
+      "MagicAttack": 0,
+      "MagicDefense": 0,
+      "MagicEscape": 0,
+      "Initiative": 0
+    },
+    "Tags": [
+      "Warrior"
+    ],
+    "SourceNote": "Правила боя: воин самоучка +1/+0/+0."
+  },
+  {
+    "Id": "warrior_graduate",
+    "Name": "Воин: выпускник",
+    "Stats": {
+      "Attack": 1,
+      "Defense": 1,
+      "Escape": 1,
+      "MagicAttack": 0,
+      "MagicDefense": 0,
+      "MagicEscape": 0,
+      "Initiative": 0
+    },
+    "Tags": [
+      "Warrior"
+    ],
+    "SourceNote": "Правила боя: воин выпускник +1/+1/+1."
+  },
+  {
+    "Id": "warrior_experienced",
+    "Name": "Воин: опытный",
+    "Stats": {
+      "Attack": 2,
+      "Defense": 2,
+      "Escape": 1,
+      "MagicAttack": 0,
+      "MagicDefense": 0,
+      "MagicEscape": 0,
+      "Initiative": 0
+    },
+    "Tags": [
+      "Warrior",
+      "Veteran"
+    ],
+    "SourceNote": "Правила боя: воин опытный +2/+2/+1."
+  },
+  {
+    "Id": "mage_student",
+    "Name": "Маг: ученик",
+    "Stats": {
+      "Attack": 0,
+      "Defense": 0,
+      "Escape": 0,
+      "MagicAttack": 4,
+      "MagicDefense": 4,
+      "MagicEscape": 4,
+      "Initiative": 0
+    },
+    "Tags": [
+      "Mage"
+    ],
+    "SourceNote": "Магический ранг: ученик +4 к спец. броскам."
+  },
+  {
+    "Id": "mage_apprentice",
+    "Name": "Маг: подмастерье",
+    "Stats": {
+      "Attack": 0,
+      "Defense": 0,
+      "Escape": 0,
+      "MagicAttack": 6,
+      "MagicDefense": 6,
+      "MagicEscape": 6,
+      "Initiative": 0
+    },
+    "Tags": [
+      "Mage"
+    ],
+    "SourceNote": "Магический ранг: подмастерье +6."
+  },
+  {
+    "Id": "mage",
+    "Name": "Маг",
+    "Stats": {
+      "Attack": 0,
+      "Defense": 0,
+      "Escape": 0,
+      "MagicAttack": 9,
+      "MagicDefense": 9,
+      "MagicEscape": 9,
+      "Initiative": 0
+    },
+    "Tags": [
+      "Mage"
+    ],
+    "SourceNote": "Магический ранг: маг +9."
+  },
+  {
+    "Id": "mage_archmage",
+    "Name": "Архимаг",
+    "Stats": {
+      "Attack": 0,
+      "Defense": 0,
+      "Escape": 0,
+      "MagicAttack": 12,
+      "MagicDefense": 12,
+      "MagicEscape": 12,
+      "Initiative": 0
+    },
+    "Tags": [
+      "Mage"
+    ],
+    "SourceNote": "Магический ранг: архимаг +12."
+  },
+  {
+    "Id": "mage_master",
+    "Name": "Магистр",
+    "Stats": {
+      "Attack": 0,
+      "Defense": 0,
+      "Escape": 0,
+      "MagicAttack": 14,
+      "MagicDefense": 14,
+      "MagicEscape": 14,
+      "Initiative": 0
+    },
+    "Tags": [
+      "Mage"
+    ],
+    "SourceNote": "Магический ранг: магистр +14."
+  }
+]

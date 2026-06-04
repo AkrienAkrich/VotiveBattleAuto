@@ -1,0 +1,283 @@
+[
+  {
+    "Id": "human",
+    "Name": "Человек",
+    "Stats": {
+      "Attack": 0,
+      "Defense": 0,
+      "Escape": 0,
+      "MagicAttack": 0,
+      "MagicDefense": 0,
+      "MagicEscape": 0,
+      "Initiative": 0
+    },
+    "Tags": [
+      "Human"
+    ],
+    "SourceNote": "Базовый шаблон."
+  },
+  {
+    "Id": "vampire_new",
+    "Name": "Вампир: новообращённый",
+    "Stats": {
+      "Attack": 4,
+      "Defense": 4,
+      "Escape": 4,
+      "MagicAttack": 0,
+      "MagicDefense": 0,
+      "MagicEscape": 0,
+      "Initiative": 0
+    },
+    "Tags": [
+      "Vampire",
+      "Monster",
+      "Undead"
+    ],
+    "SourceNote": "Правила боя: вампиры, новообращённый +4/+4/+4."
+  },
+  {
+    "Id": "vampire_low",
+    "Name": "Вампир: низший",
+    "Stats": {
+      "Attack": 7,
+      "Defense": 7,
+      "Escape": 7,
+      "MagicAttack": 0,
+      "MagicDefense": 0,
+      "MagicEscape": 0,
+      "Initiative": 0
+    },
+    "Tags": [
+      "Vampire",
+      "Monster",
+      "Undead"
+    ],
+    "SourceNote": "Правила боя: вампиры, низший +7/+7/+7."
+  },
+  {
+    "Id": "vampire_common",
+    "Name": "Вампир: обычный",
+    "Stats": {
+      "Attack": 10,
+      "Defense": 10,
+      "Escape": 10,
+      "MagicAttack": 0,
+      "MagicDefense": 0,
+      "MagicEscape": 0,
+      "Initiative": 0
+    },
+    "Tags": [
+      "Vampire",
+      "Monster",
+      "Undead"
+    ],
+    "SourceNote": "Правила боя: вампиры, обычный +10/+10/+10."
+  },
+  {
+    "Id": "vampire_high",
+    "Name": "Вампир: высший",
+    "Stats": {
+      "Attack": 13,
+      "Defense": 13,
+      "Escape": 13,
+      "MagicAttack": 0,
+      "MagicDefense": 0,
+      "MagicEscape": 0,
+      "Initiative": 0
+    },
+    "Tags": [
+      "Vampire",
+      "Monster",
+      "Undead"
+    ],
+    "SourceNote": "Правила боя: вампиры, высший +13/+13/+13."
+  },
+  {
+    "Id": "lycan_homid_cliath",
+    "Name": "Оборотень: Хомид/Люпус, Клиат",
+    "Stats": {
+      "Attack": 4,
+      "Defense": 4,
+      "Escape": 4,
+      "MagicAttack": 0,
+      "MagicDefense": 0,
+      "MagicEscape": 0,
+      "Initiative": 0
+    },
+    "Tags": [
+      "Lycan",
+      "Monster"
+    ],
+    "SourceNote": "Правила боя: оборотни Хомид/Люпус, Клиат +4."
+  },
+  {
+    "Id": "lycan_homid_fostern",
+    "Name": "Оборотень: Хомид/Люпус, Фостерн",
+    "Stats": {
+      "Attack": 5,
+      "Defense": 5,
+      "Escape": 5,
+      "MagicAttack": 0,
+      "MagicDefense": 0,
+      "MagicEscape": 0,
+      "Initiative": 0
+    },
+    "Tags": [
+      "Lycan",
+      "Monster"
+    ],
+    "SourceNote": "Правила боя: оборотни Хомид/Люпус, Фостерн +5."
+  },
+  {
+    "Id": "lycan_homid_adren",
+    "Name": "Оборотень: Хомид/Люпус, Адрен",
+    "Stats": {
+      "Attack": 6,
+      "Defense": 6,
+      "Escape": 6,
+      "MagicAttack": 0,
+      "MagicDefense": 0,
+      "MagicEscape": 0,
+      "Initiative": 0
+    },
+    "Tags": [
+      "Lycan",
+      "Monster"
+    ],
+    "SourceNote": "Правила боя: оборотни Хомид/Люпус, Адрен +6."
+  },
+  {
+    "Id": "lycan_glabro_cliath",
+    "Name": "Оборотень: Глабро/Гиспо, Клиат",
+    "Stats": {
+      "Attack": 6,
+      "Defense": 6,
+      "Escape": 6,
+      "MagicAttack": 0,
+      "MagicDefense": 0,
+      "MagicEscape": 0,
+      "Initiative": 0
+    },
+    "Tags": [
+      "Lycan",
+      "Monster",
+      "LycanForm"
+    ],
+    "SourceNote": "Правила боя: оборотни Глабро/Гиспо, Клиат +6."
+  },
+  {
+    "Id": "lycan_glabro_fostern",
+    "Name": "Оборотень: Глабро/Гиспо, Фостерн",
+    "Stats": {
+      "Attack": 7,
+      "Defense": 7,
+      "Escape": 7,
+      "MagicAttack": 0,
+      "MagicDefense": 0,
+      "MagicEscape": 0,
+      "Initiative": 0
+    },
+    "Tags": [
+      "Lycan",
+      "Monster",
+      "LycanForm"
+    ],
+    "SourceNote": "Правила боя: оборотни Глабро/Гиспо, Фостерн +7."
+  },
+  {
+    "Id": "lycan_glabro_adren",
+    "Name": "Оборотень: Глабро/Гиспо, Адрен",
+    "Stats": {
+      "Attack": 8,
+      "Defense": 8,
+      "Escape": 8,
+      "MagicAttack": 0,
+      "MagicDefense": 0,
+      "MagicEscape": 0,
+      "Initiative": 0
+    },
+    "Tags": [
+      "Lycan",
+      "Monster",
+      "LycanForm"
+    ],
+    "SourceNote": "Правила боя: оборотни Глабро/Гиспо, Адрен +8."
+  },
+  {
+    "Id": "lycan_crinos_cliath",
+    "Name": "Оборотень: Кринос, Клиат",
+    "Stats": {
+      "Attack": 7,
+      "Defense": 7,
+      "Escape": 7,
+      "MagicAttack": 0,
+      "MagicDefense": 0,
+      "MagicEscape": 0,
+      "Initiative": 0
+    },
+    "Tags": [
+      "Lycan",
+      "Monster",
+      "LycanForm",
+      "Crinos"
+    ],
+    "SourceNote": "Правила боя: оборотни Кринос, Клиат +7."
+  },
+  {
+    "Id": "lycan_crinos_fostern",
+    "Name": "Оборотень: Кринос, Фостерн",
+    "Stats": {
+      "Attack": 10,
+      "Defense": 10,
+      "Escape": 10,
+      "MagicAttack": 0,
+      "MagicDefense": 0,
+      "MagicEscape": 0,
+      "Initiative": 0
+    },
+    "Tags": [
+      "Lycan",
+      "Monster",
+      "LycanForm",
+      "Crinos"
+    ],
+    "SourceNote": "Правила боя: оборотни Кринос, Фостерн +10."
+  },
+  {
+    "Id": "lycan_crinos_adren",
+    "Name": "Оборотень: Кринос, Адрен",
+    "Stats": {
+      "Attack": 13,
+      "Defense": 13,
+      "Escape": 13,
+      "MagicAttack": 0,
+      "MagicDefense": 0,
+      "MagicEscape": 0,
+      "Initiative": 0
+    },
+    "Tags": [
+      "Lycan",
+      "Monster",
+      "LycanForm",
+      "Crinos"
+    ],
+    "SourceNote": "Правила боя: оборотни Кринос, Адрен +13."
+  },
+  {
+    "Id": "kinfolk",
+    "Name": "Кинфолк",
+    "Stats": {
+      "Attack": 3,
+      "Defense": 3,
+      "Escape": 3,
+      "MagicAttack": 0,
+      "MagicDefense": 0,
+      "MagicEscape": 0,
+      "Initiative": 0
+    },
+    "Tags": [
+      "Kinfolk"
+    ],
+    "SourceNote": "Правила боя: кинфолк +3 ко всему."
+  }
+]
